@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Disponibilité de VideoGlance, formats essayés, minimum macOS et limites connues. La distribution publique signée est encore en préparation.">
+  <title>Disponibilité et compatibilité — VideoGlance</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
+  <link rel="stylesheet" href="../assets/site.css">
+  <link rel="alternate" hreflang="fr" href="../fr/status.html">
+  <link rel="alternate" hreflang="en" href="../en/status.html">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Aller au contenu</a>
+  <header class="site-header wrap">
+    <a class="brand" href="index.html" aria-label="VideoGlance — Accueil"><img src="../assets/logo.svg" alt="VideoGlance" width="188" height="42"></a>
+    <nav aria-label="Navigation principale">
+      <a href="index.html#features">Fonctionnement</a>
+      <a href="guide.html">Guide</a>
+      <a href="status.html" aria-current="page">État & limites</a>
+    </nav>
+    <nav class="languages" aria-label="Langue"><span lang="fr">FR</span> · <a href="../en/status.html" lang="en" hreflang="en">EN</a></nav>
+  </header>
+  <main id="main-content" class="wrap document-page" tabindex="-1"><section class="status-page" aria-labelledby="status-title">
+  <p class="stage-label">Version publique en préparation</p>
+  <h1 id="status-title">Ce qui est essayé. Ce qui reste à vérifier.</h1>
+  <p>VideoGlance est encore une version de développement. Cette page sépare les fonctions observées sur un Mac des exigences techniques inscrites dans le paquet.</p>
+  <h2 id="compatibility">Quel Mac ?</h2>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Compatibilité de VideoGlance"><table>
+    <thead><tr><th scope="col">Configuration</th><th scope="col">État actuel</th></tr></thead>
+    <tbody>
+      <tr><td>macOS 15.7.9 · Apple Silicon</td><td>Environnement essayé. Commandes du build 32 confirmées dans Finder ; corpus logiciel revérifié au build 39.</td></tr>
+      <tr><td>macOS 15.0 et autres versions 15</td><td>15.0 est le minimum technique des dépendances, sans validation d’exécution sur ces versions.</td></tr>
+      <tr><td>macOS 14</td><td>Non couvert par les dépendances actuelles.</td></tr>
+      <tr><td>Mac Intel</td><td>Non validé ; aucun téléchargement Intel n’est proposé.</td></tr>
+    </tbody>
+  </table></div>
+  <h2 id="formats">Quels fichiers ?</h2>
+  <p>Les essais synthétiques couvrent MKV/H.264, WebM/VP9, AVI/MPEG-4, FLV/FLV1, WMV/WMV2, Ogg/VP8, TS/MTS/M2TS en MPEG-2 ou H.264 et RealMedia/RV20. Ils incluent des pistes AAC et SRT, une vidéo de plus d’une heure et des fichiers invalides.</p>
+  <p>Ces échantillons ne valident pas tous les codecs de chaque conteneur. F4V, OGM/Theora, RMVB/RV30/RV40 et les médias lourds réels restent notamment à essayer. Les MP4, MOV, M4V et 3GP continuent d’utiliser les aperçus Apple.</p>
+  <h2 id="limits">Deux différences connues</h2>
+  <ul>
+    <li>Les couleurs, transparences et effets des commandes peuvent différer de ceux des aperçus Apple.</li>
+    <li>Après MKV → MP4 → même MKV, une vue conservée en cache peut reprendre à l’ancienne position ou conserver sa pause. Le retour automatique au début n’est pas garanti. Dans la fenêtre Quick Look, ramenez la progression à 00:00 pour repartir du début.</li>
+  </ul>
+  <p>Le découpage, AirPlay, Picture in Picture, le DRM et la sélection manuelle des pistes ne font pas partie de ce lecteur. Les fonctions natives restent disponibles pour les formats pris en charge par macOS.</p>
+  <h2 id="availability">Téléchargement et installation</h2>
+  <p>Aucun téléchargement public ni cask Homebrew n’est disponible actuellement. Le paquet signé, la notarisation et l’installation sur un Mac propre restent à vérifier avant de proposer une version.</p>
+  <p>L’application sera gratuite, sans compte ni abonnement. Les étapes d’installation, de mise à jour et de désinstallation accompagneront le livrable vérifié. Le <a href="guide.html">guide d’utilisation</a> décrit déjà les commandes et les limites connues.</p>
+  <h2 id="support">Préparer un signalement</h2>
+  <p>Notez la version de macOS, le type de Mac, la version et le build de VideoGlance, les étapes de reproduction et le format de la vidéo. Préférez un petit fichier synthétique à une vidéo personnelle. Un canal de support public sera indiqué avec la première version distribuée.</p>
+</section>
+</main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><p class="footer-name">VideoGlance</p><p>Les vidéos restent dans votre Finder.</p></div>
+      <nav aria-label="Liens utiles"><a href="guide.html">Guide</a><a href="status.html">État & limites</a></nav>
+    </div>
+  </footer>
+</body>
+</html>

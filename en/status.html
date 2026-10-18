@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="VideoGlance availability, tested formats, macOS requirements and known limitations. A signed public release is still in preparation.">
+  <title>Availability and compatibility — VideoGlance</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
+  <link rel="stylesheet" href="../assets/site.css">
+  <link rel="alternate" hreflang="fr" href="../fr/status.html">
+  <link rel="alternate" hreflang="en" href="../en/status.html">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="index.html" aria-label="VideoGlance — Home"><img src="../assets/logo.svg" alt="VideoGlance" width="188" height="42"></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html#features">How it works</a>
+      <a href="guide.html">Guide</a>
+      <a href="status.html" aria-current="page">Status & limits</a>
+    </nav>
+    <nav class="languages" aria-label="Language"><a href="../fr/status.html" lang="fr" hreflang="fr">FR</a> · <span lang="en">EN</span></nav>
+  </header>
+  <main id="main-content" class="wrap document-page" tabindex="-1"><section class="status-page" aria-labelledby="status-title">
+  <p class="stage-label">Public version in preparation</p>
+  <h1 id="status-title">What has been tried. What still needs checking.</h1>
+  <p>VideoGlance is still a development version. This page separates behavior observed on one Mac from the technical requirements declared by the package.</p>
+  <h2 id="compatibility">Which Mac?</h2>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="VideoGlance compatibility"><table>
+    <thead><tr><th scope="col">Configuration</th><th scope="col">Current status</th></tr></thead>
+    <tbody>
+      <tr><td>macOS 15.7.9 · Apple Silicon</td><td>Tested environment. Build 32 controls confirmed in Finder; software media corpus checked again with build 39.</td></tr>
+      <tr><td>macOS 15.0 and other 15 releases</td><td>15.0 is the dependencies’ technical minimum. Runtime behavior on these releases has not been validated.</td></tr>
+      <tr><td>macOS 14</td><td>Not covered by the current dependencies.</td></tr>
+      <tr><td>Intel Macs</td><td>Unverified; no Intel download is offered.</td></tr>
+    </tbody>
+  </table></div>
+  <h2 id="formats">Which files?</h2>
+  <p>Synthetic tests cover MKV/H.264, WebM/VP9, AVI/MPEG-4, FLV/FLV1, WMV/WMV2, Ogg/VP8, MPEG-2 or H.264 in TS/MTS/M2TS, and RealMedia/RV20. They include AAC and SRT tracks, a video longer than an hour, and invalid files.</p>
+  <p>These samples do not validate every codec in a container. F4V, OGM/Theora, RMVB/RV30/RV40 and large real-world media still need testing. MP4, MOV, M4V and 3GP continue to use Apple’s previews.</p>
+  <h2 id="limits">Two known differences</h2>
+  <ul>
+    <li>Video colors, transparency and control effects may differ from Apple’s previews.</li>
+    <li>After MKV → MP4 → the same MKV, a cached view may resume at its previous position or keep its paused state. Returning to the beginning automatically is not guaranteed. In the Quick Look window, move the timeline to 00:00 to start from the beginning.</li>
+  </ul>
+  <p>Trimming, AirPlay, Picture in Picture, DRM and manual track selection are not part of this player. Native features remain available for formats macOS supports.</p>
+  <h2 id="availability">Download and installation</h2>
+  <p>No public download or Homebrew cask is available yet. Developer ID signing, notarization and installation on a clean Mac still need to be verified before a version is offered.</p>
+  <p>The app will be free, with no account or subscription. Installation, update and removal instructions will accompany the verified release. The <a href="guide.html">usage guide</a> already describes controls and known limits.</p>
+  <h2 id="support">Prepare an issue report</h2>
+  <p>Record your macOS version, Mac type, VideoGlance version and build, reproduction steps, and video format. Prefer a small synthetic sample to a personal video. A public support channel will be listed with the first distributed version.</p>
+</section>
+</main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div><p class="footer-name">VideoGlance</p><p>Your videos stay in Finder.</p></div>
+      <nav aria-label="Useful links"><a href="guide.html">Guide</a><a href="status.html">Status & limits</a></nav>
+    </div>
+  </footer>
+</body>
+</html>

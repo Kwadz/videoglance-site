@@ -32,7 +32,8 @@ Movie excerpts and stills: **Spring** — © Blender Foundation | cloud.blender.
 Licensed under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/);
 see the [movie's official reuse terms](https://studio.blender.org/projects/spring/pages/about/).
 The source copy is available on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spring_-_Blender_Open_Movie.webm).
-Two real Finder recordings show opening Quick Look with Space and revealing
+Two real Finder recordings show opening Quick Look with Space, hovering to reveal
+its progress bar, and revealing
 VideoGlance's circular control in Finder's Preview pane, with the file list visible.
 The excerpts are silent and scaled; a Space key annotation is added to the first
 recording: a spacebar symbol followed by Espace on the French page and Space

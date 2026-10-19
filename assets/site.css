@@ -261,13 +261,6 @@ p+p {
   border-radius:12px;
   box-shadow:0 16px 45px -30px #2525386b;
 }
-.demo-note {
-  font-size:.73rem;
-  line-height:1.6;
-  color:var(--muted);
-  margin-top:-1.4rem;
-  margin-bottom:1.2rem;
-}
 .compatibility-grid {
   display:grid;
   grid-template-columns:1.1fr 1fr;

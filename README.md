@@ -35,7 +35,9 @@ The source copy is available on [Wikimedia Commons](https://commons.wikimedia.or
 Two real Finder recordings show opening Quick Look with Space and revealing
 VideoGlance's circular control in Finder's Preview pane, with the file list visible.
 The excerpts are silent and scaled; a Space key annotation is added to the first
-recording. The second records the actual macOS pointer and a real seek operation.
+recording: a spacebar symbol followed by Espace on the French page and Space
+on the English page. Each page loads only its own language variant. The second
+records the actual macOS pointer and a real seek operation.
 The movie footage retains its CC BY 4.0 terms; no endorsement by Blender
 Foundation is implied. This media credit does not publish or license the
 application's source code.

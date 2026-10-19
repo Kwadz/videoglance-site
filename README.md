@@ -28,14 +28,14 @@ will be completed and verified.
 
 ## Demonstration footage
 
-Movie excerpts and stills: **Big Buck Bunny** — (c) copyright 2008, Blender
-Foundation / www.bigbuckbunny.org. Licensed under
-[Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/);
-see the [movie's reuse terms](https://peach.blender.org/about/) and
-[official downloads](https://download.blender.org/demo/movies/BBB/).
-The Finder recordings use short, muted, cropped and scaled excerpts. A key
-annotation and an illustrative pointer are added where stated in the captions.
-The second video records the actual macOS pointer and a real seek operation.
-The movie footage retains its CC BY 3.0 terms; no endorsement by Blender
+Movie excerpts and stills: **Spring** — © Blender Foundation | cloud.blender.org/spring.
+Licensed under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/);
+see the [movie's official reuse terms](https://studio.blender.org/projects/spring/pages/about/).
+The source copy is available on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spring_-_Blender_Open_Movie.webm).
+Two real Finder recordings show opening Quick Look with Space and revealing
+VideoGlance's circular control in Finder's Preview pane, with the file list visible.
+The excerpts are silent and scaled; a Space key annotation is added to the first
+recording. The second records the actual macOS pointer and a real seek operation.
+The movie footage retains its CC BY 4.0 terms; no endorsement by Blender
 Foundation is implied. This media credit does not publish or license the
 application's source code.

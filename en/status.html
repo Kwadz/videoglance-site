@@ -6,6 +6,14 @@
   <meta name="robots" content="noindex, nofollow">
   <meta name="description" content="VideoGlance availability, tested formats, macOS requirements and known limitations. A signed public release is still in preparation.">
   <title>Availability and compatibility — VideoGlance</title>
+  <link rel="canonical" href="https://kwadz.github.io/videoglance-site/en/status.html">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kwadz.github.io/videoglance-site/en/status.html">
+<meta property="og:title" content="Availability and compatibility — VideoGlance">
+<meta property="og:description" content="VideoGlance availability, tested formats, macOS requirements and known limitations. A signed public release is still in preparation.">
+<meta property="og:image" content="https://kwadz.github.io/videoglance-site/assets/quicklook-demo.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Availability and compatibility — VideoGlance", "url": "https://kwadz.github.io/videoglance-site/en/status.html", "inLanguage": "en", "isPartOf": {"@type": "WebSite", "name": "VideoGlance", "url": "https://kwadz.github.io/videoglance-site/"}}</script>
   <link rel="icon" type="image/svg+xml" href="../assets/icon.svg">
   <link rel="stylesheet" href="../assets/site.css">
   <link rel="alternate" hreflang="fr" href="../fr/status.html">
@@ -30,15 +38,15 @@
   <div class="table-scroll" tabindex="0" role="region" aria-label="VideoGlance compatibility"><table>
     <thead><tr><th scope="col">Configuration</th><th scope="col">Current status</th></tr></thead>
     <tbody>
-      <tr><td>macOS 15.7.9 · Apple Silicon</td><td>Tested environment. Build 32 controls confirmed in Finder; software media corpus checked again with build 39.</td></tr>
+      <tr><td>macOS 15.7.9 · Apple Silicon</td><td>Tested environment. Build 32 controls confirmed by the owner; playback, seeking and volume checked in Finder with build 42, alongside 23 engine media cases.</td></tr>
       <tr><td>macOS 15.0 and other 15 releases</td><td>15.0 is the dependencies’ technical minimum. Runtime behavior on these releases has not been validated.</td></tr>
       <tr><td>macOS 14</td><td>Not covered by the current dependencies.</td></tr>
       <tr><td>Intel Macs</td><td>Unverified; no Intel download is offered.</td></tr>
     </tbody>
   </table></div>
   <h2 id="formats">Which files?</h2>
-  <p>Synthetic tests cover MKV/H.264, WebM/VP9, AVI/MPEG-4, FLV/FLV1, WMV/WMV2, Ogg/VP8, MPEG-2 or H.264 in TS/MTS/M2TS, and RealMedia/RV20. They include AAC and SRT tracks, a video longer than an hour, and invalid files.</p>
-  <p>These samples do not validate every codec in a container. F4V, OGM/Theora, RMVB/RV30/RV40 and large real-world media still need testing. MP4, MOV, M4V and 3GP continue to use Apple’s previews.</p>
+  <p>Synthetic tests cover MKV/H.264, WebM/VP9, AVI/MPEG-4, FLV/FLV1, WMV/WMV2, Ogg/VP8, MPEG-2 or H.264 in TS/MTS/M2TS, and RealMedia/RV20. They also include F4V/H.264, HEVC Main 10/FLAC, AV1/Opus, AAC and SRT tracks, a video longer than an hour, and invalid files.</p>
+  <p>These samples do not validate every codec in a container. OGM/Theora, RMVB/RV30/RV40 and large real-world media still need testing. MP4, MOV, M4V and 3GP continue to use Apple’s previews.</p>
   <h2 id="limits">Two known differences</h2>
   <ul>
     <li>Video colors, transparency and control effects may differ from Apple’s previews.</li>
@@ -46,7 +54,7 @@
   </ul>
   <p>Trimming, AirPlay, Picture in Picture, DRM and manual track selection are not part of this player. Native features remain available for formats macOS supports.</p>
   <h2 id="availability">Download and installation</h2>
-  <p>No public download or Homebrew cask is available yet. Developer ID signing, notarization and installation on a clean Mac still need to be verified before a version is offered.</p>
+  <p>No public download or Homebrew cask is available yet. The signed DMG has been submitted to Apple; acceptance and final download checks are still required. No download is offered before those checks.</p>
   <p>The app will be free, with no account or subscription. Installation, update and removal instructions will accompany the verified release. The <a href="guide.html">usage guide</a> already describes controls and known limits.</p>
   <h2 id="support">Prepare an issue report</h2>
   <p>Record your macOS version, Mac type, VideoGlance version and build, reproduction steps, and video format. Prefer a small synthetic sample to a personal video. A public support channel will be listed with the first distributed version.</p>

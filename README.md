@@ -25,8 +25,7 @@ GitHub Pages settings, DNS and HTTPS must also be configured. Only reviewed webs
 are pushed here; a push to the private application repository does not deploy
 this site. A push to this public repository updates the website.
 
-Until the launch is approved, the website keeps `noindex` metadata. This does
-not make it private: the repository, the website and the releases are public.
+The website is open to search engines; `robots.txt` lists the sitemap.
 
 ## Demonstration footage
 

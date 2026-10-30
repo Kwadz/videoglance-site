@@ -1,30 +1,32 @@
 # VideoGlance
 
-Public website and future distribution files for VideoGlance, a free macOS
-Quick Look application for MKV, WebM and other video formats.
+Public website and distribution files for VideoGlance, a free macOS Quick Look
+application for MKV, WebM and other video formats.
 
-**The application is in preparation. No public installer or Homebrew cask is
-available yet.** The website describes the tested configuration and known limits;
-it does not claim full compatibility with Apple's previews.
+VideoGlance 1.1 is available from the
+[Releases](https://github.com/Kwadz/videoglance-site/releases): a disk image
+signed and notarized by Apple, its SHA-256 checksum, release notes and the
+corresponding third-party sources. The Homebrew cask lives in
+[Kwadz/homebrew-videoglance](https://github.com/Kwadz/homebrew-videoglance).
+The website describes the tested configuration and known limits; it does not
+claim full compatibility with Apple's previews.
 
 This repository contains the generated French and English website, its images
 and this introduction. It does not contain the application's source code.
 
-Open the website to choose French or English. A custom domain may be added later.
-Verified installers, checksums and release notes will be published through
-GitHub Releases when ready. There are currently no release assets to download.
+The project's domain is [videoglance.app](https://videoglance.app/).
+Open the website to choose French or English.
 
 ## Publishing
 
 GitHub Pages serves the root of the `main` branch. The `.nojekyll` file preserves
-the static HTML output without Jekyll processing. Only reviewed website exports
+the static HTML output without Jekyll processing. `CNAME` declares `videoglance.app`;
+GitHub Pages settings, DNS and HTTPS must also be configured. Only reviewed website exports
 are pushed here; a push to the private application repository does not deploy
 this site. A push to this public repository updates the website.
 
-The preparation site keeps `noindex` metadata. This does not make it private:
-the repository and website are public. Before the app's first public release,
-the download links, installation instructions, release notes and search metadata
-will be completed and verified.
+Until the launch is approved, the website keeps `noindex` metadata. This does
+not make it private: the repository, the website and the releases are public.
 
 ## Demonstration footage
 
